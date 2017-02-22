@@ -8,6 +8,11 @@ namespace WebApplication.Controllers
 {
 	public class HomeController : Controller
 	{
+		public string Test()
+		{
+			return "test";
+		}
+
 		public ActionResult Index()
 		{
 			return View();
